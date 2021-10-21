@@ -1,5 +1,5 @@
 
-import 'package:alarm/alarmPage.dart';
+import 'package:alarm/view/alarmPage.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 

@@ -1,7 +1,7 @@
-import 'package:alarm/chart_helper.dart';
-import 'package:alarm/chart_info.dart';
-import 'package:alarm/class_graph.dart';
-import 'package:alarm/graph_show.dart';
+import 'package:alarm/function/chart_helper.dart';
+import 'package:alarm/class/chart_info.dart';
+import 'package:alarm/class/graph_info.dart';
+import 'package:alarm/view/graph_show.dart';
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:flutter/src/painting/text_style.dart' as textstylist;

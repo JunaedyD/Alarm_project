@@ -1,4 +1,4 @@
-import 'class_graph.dart';
+import '../class/graph_info.dart';
 import 'package:flutter/material.dart';
 import 'package:charts_flutter/flutter.dart' as charts;
 

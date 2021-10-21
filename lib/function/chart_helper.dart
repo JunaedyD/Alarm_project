@@ -1,5 +1,5 @@
-import 'package:alarm/alarm_info.dart';
-import 'package:alarm/chart_info.dart';
+import 'package:alarm/class/alarm_info.dart';
+import 'package:alarm/class/chart_info.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:sqflite/sqlite_api.dart';
 

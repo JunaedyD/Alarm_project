@@ -1,18 +1,18 @@
 import 'dart:async';
 import 'dart:math';
-import 'package:alarm/alarm_helper.dart';
-import 'package:alarm/alarm_info.dart';
-import 'package:alarm/chart_helper.dart';
-import 'package:alarm/chart_info.dart';
-import 'package:alarm/graphicPage.dart';
-import 'package:alarm/localNotifymanager.dart';
+import 'package:alarm/function/alarm_helper.dart';
+import 'package:alarm/class/alarm_info.dart';
+import 'package:alarm/function/chart_helper.dart';
+import 'package:alarm/class/chart_info.dart';
+import 'package:alarm/view/graphicPage.dart';
+import 'package:alarm/function/localNotifymanager.dart';
 import 'package:alarm/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:intl/intl.dart';
 import 'package:numberpicker/numberpicker.dart';
 import 'package:rxdart/subjects.dart';
-import 'localNotifymanager.dart';
+import '../function/localNotifymanager.dart';
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);

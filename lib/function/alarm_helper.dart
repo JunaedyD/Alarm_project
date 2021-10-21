@@ -1,4 +1,4 @@
-import 'package:alarm/alarm_info.dart';
+import 'package:alarm/class/alarm_info.dart';
 import 'package:sqflite/sqflite.dart';
 import 'package:sqflite/sqlite_api.dart';
 
@@ -12,6 +12,8 @@ final String columnColorIndex = 'gradientColorIndex';
 class AlarmHelper {
   static Database _database;
   static AlarmHelper _alarmHelper;
+
+  
 
 
   
